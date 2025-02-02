@@ -102,7 +102,6 @@ if (WebGL.isWebGL2Available()) {
    */
   camera.position.z = 10;
 
-  console.log(camera.position.z);
   setInterval(() => {
     if (camera.position.z > 2) {
       camera.position.z -= 1;
